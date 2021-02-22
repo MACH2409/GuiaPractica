@@ -1,0 +1,123 @@
+*{
+	padding:0;
+	margin: 0;
+}
+h1{
+	font-family: 'IBM Plex Sans';
+	color: hsl(201, 73%, 63%);
+}
+h3{
+	font-family: 'IBM Plex Sans';
+	color: hsl(345, 81%, 41%);
+}
+h5, p{
+	font-family: 'Montserrat';
+	color: rgb(26, 50, 60);
+}
+/*Menú*/
+nav{
+  
+  margin-left: 65vw;
+  margin-right: 1vw;
+  margin-top: 0vh;
+  display: flex;
+  top: 0;
+  z-index: 100;
+  font-family: 'Montserrat';
+}
+nav ul {
+  margin-top: 1em;
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 0em;
+ }
+nav li {
+  line-height: 4rem;
+  position: relative
+}
+nav ul{
+  display: inline-flex;
+}
+nav li ul{
+  position: absolute;
+  display: inline-flex;
+}
+nav a{
+  text-decoration: none;
+  color: rgb(26, 50, 60);
+  display: flex;
+  padding: 0 25px;
+  margin-top: 0vh;
+  font-size: 12px;
+}
+nav a:hover{
+	color: rgb(90, 180, 229);
+}
+/*Header*/
+header{
+	margin-bottom: 5vh;
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+}
+/*Título*/
+.titulo{
+   margin-left: 25vw;
+   margin-right: 25vw;
+}
+.star{
+	font-size: 5vh;
+	text-align: center;
+}
+/*Caja 1*/
+.caja1{
+	border-radius: 15px;
+	padding: 12px;
+	background-color: hsl(0, 0%, 93%);
+	margin-top: 6vh;
+	margin-left: 4vw;
+	margin-right: 65vw;
+}
+.caja1t{
+	text-align: center;
+	margin-bottom: 2vh;
+}
+.caja1i{
+	position: relative;
+	width: 28vw;
+	margin-bottom: 2vh;
+}
+p{
+	text-align: justify;
+	font-size: 1.5vh;
+}
+/*Caja 2*/
+.caja2{
+	border-radius: 15px;
+	padding: 12px;
+	background-color: rgb(90, 180, 229);
+	margin-top: -46vh;
+	margin-left: 38vw;
+	margin-right: 40vw;
+}
+.caja2t{
+	text-align: center;
+	margin-bottom: 2vh;
+}
+/*Caja 3*/
+#caja3{
+	margin-left: 64vw;
+	margin-right: 5vw;
+	margin-top: -62vh;
+}
+#east:hover{
+   opacity: 70%
+}
+#west:hover{
+	opacity: 70%;
+}
+footer{
+	margin-top: 5vh;
+	font-size: 1vw;
+	text-align: center;
+	margin-bottom: 1.5vh;
+}
